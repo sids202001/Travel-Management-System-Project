@@ -1,0 +1,122 @@
+
+body{
+  font-family: Montserrat;
+  height: 100%;
+  background: url(Bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:0;
+  margin:0;
+}
+
+/* Global */
+.container{
+  background-image: none;
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  float:right;
+}
+
+/* Header **/
+header{
+  padding-top:30px;
+  min-height:70px;
+}
+
+header a{
+  color:white;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:20px;
+  font-weight: bold;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 40px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  font-size:150%;
+ font-family: Montserrat;
+  margin:0;
+  color:#b2d3c2;
+  padding-top: 10px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#00CEFF;
+  font-weight:bolder;
+
+}
+
+header a:hover{
+  color:#00CEFF;
+  font-weight:bolder;
+}
+
+/* Showcase */
+
+#showcase{
+  min-height:700px;
+  text-align:center;
+  color:#32612D;
+}
+
+#showcase a{
+  font-family: unset;
+  color:#728C69;
+  text-decoration:none;
+}
+
+#showcase p{
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: 500%;
+  margin-top:280px;
+  margin-bottom:10px;
+}
+
+#showcase h3{
+  font-size:20px;
+  text-shadow: 0 0 0 #000000;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: #728C69;
+}
+
+#showcase a:hover{
+  color:#728C69;
+  font-weight:bold;
+  text-shadow: 0 0 1px #000000;
+}
+
+/* Footer */
+
+footer{
+  position: relative;
+  padding:20px;
+  margin-top:20px;
+  text-align: center;
+}
+
+footer p{
+	color:#FCFBFC;
+}

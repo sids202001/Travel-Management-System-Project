@@ -1,0 +1,2 @@
+11. db ke folder mai databse ka structure diya h phpmyadmin jake ek naya table test_db se and usmai jake import kr db ko 
+and directly run kr 
